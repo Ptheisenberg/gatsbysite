@@ -1,0 +1,25 @@
+.wrapper {
+    margin: 30px auto;
+    width: 80vw;
+    text-align: center;
+}
+
+.wrapper article {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid green;
+}
+
+@media(min-width: 980px) {
+    .wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+    .wrapper article {
+        flex-basis: 30%;
+    }
+}
+
+.basic {
+    width: 100%;
+}
